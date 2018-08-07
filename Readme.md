@@ -1,9 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Анастасия Титова](https://up.htmlacademy.ru/htmlcss/22/user/146892).
-* Наставник: [Дмитрий Мишагин](https://github.com/mi5ha6in).
+* Наставник: [Дмитрий Мишагин](https://up.htmlacademy.ru/htmlcss/22/user/118967).
 
----
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
