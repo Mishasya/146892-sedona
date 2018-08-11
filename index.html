@@ -8,7 +8,7 @@
 
 		<header class="main-header">
 			<nav class="main-nav">
-				<ul>
+				<ul class="main-nav-list">
 					<li>Информация</li>
 					<li>Фото и видео</li>
 					<li>Карта штата</li>
@@ -19,44 +19,84 @@
 
 		<main>
 
-			<h1>Сайт города Седона</h1>
+			<h1 class="visually-hidden">Сайт города Седона</h1>
 
-			<article>
-				<div>
-					<h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-					<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-				</div>
+			<div class="promo">
+				<h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+				<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+			</div>
 
-				<section>
-					<h3>Настоящий городок</h3>
-					<span>— №1 —</span>
-					<p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-				</section>
-
-				<section>
-					<ul>
-						<li>
-							<h3>Жильё</h3>
-							<p>Жильё  Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-						</li>
-						<li>
-							<h3>Еда</h3>
-							<p>Еда  Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-						</li>
-						<li>
-							<h3>Сувениры</h3>
-							<p>Сувениры  Не только китайского, но и местного производства!</p>
-						</li>
-					</ul>
-				</section>
-
-				<section>
+			<section class="about about-left">
+				<h3>Настоящий городок</h3>
+				<span>— №1 —</span>
+				<p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+			</section>
+			
+			<section class="specific">
+				<ul class="specific-list">
+					<li class="specific-item">
+						<h3>Жильё</h3>
+						<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+					</li>
+					<li class="specific-item">
+						<h3>Еда</h3>
+						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+					</li>
+					<li class="specific-item">
+						<h3>Сувениры</h3>
+						<p>Не только китайского, но и местного производства!</p>
+					</li>
+				</ul>
+			</section>
+				
+			<section class="about about-right">
 					<h3>Там есть мост дьявола</h3>
 					<span>— №2 —</span>
 					<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-				</section>
-			</article>			
+			</section>
+
+			<section class="features">
+				<ul class="features-list">
+					<li class="features-item">
+						<h3>Небольшая площадь</h3>
+						<span>— №3 —</span>
+						<p>Все достопримечательности находятся очень близко</p>
+					</li>
+					<li class="features-item">
+						<h3>Красивая дорога</h3>
+						<span>— №4 —</span>
+						<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+					</li>
+					<li class="features-item">
+						<h3>Мало туристов</h3>
+						<span>— №5 —</span>
+						<p>Большинство едет в гранд каньон и толпится там</p>
+					</li>
+				</ul>
+			</section>
+			
+			<section class="search">
+				<p class="search-title">Заинтересовались?</p>
+				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<a href="#" class="btn search-btn">Поиск гостиниц в Седоне</a>
+			</section>
 		</main>
 
+			<footer>
+				<p>#Visitsedona</p>
+				<div class="social">
+					<a href="#" class="btn social-btn">Twitter</a>
+					<a href="#" class="btn social-btn">Facebook</a>
+					<a href="#" class="btn social-btn">Youtube</a>
+				</div>
+				<p>
+					<b>Website by</b>
+					<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="html academy"></a>
+				</p>
+			</footer>
+
+			<section class="modal">
+					<!-- здесь будет форма -->
+			</section>
   </body>
 </html>
