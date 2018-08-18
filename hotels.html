@@ -7,7 +7,6 @@
 <body>
 
 	<header class="main-header">
-
 		<nav class="main-nav">
 			<a href="index.html" class="main-header-logo">
 				<img src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
@@ -19,19 +18,82 @@
 				<li class="site-nav-current"><a>Гостиницы</a></li>
 			</ul>
 		</nav>
-
 	</header>
 
 	<main>
-
 		<h1 class="visually-hidden">Выбор гостиницы в Седоне</h1>
 
-		<form>
-			<!-- форма -->
-		</form>
+		<section>
+			<h2>Фильтр гостиниц</h2>
 
+			<form class="form-filter" action="#" method="get">
+				<fieldset>
+					<legend>Инфраструктура:</legend>
+
+					<ul>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="pool" id="id-pool" checked>
+							<label for="id-pool">Бассейн</label>
+						</li>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="parking" id="id-parking">
+							<label for="id-parking">Парковка</label>
+						</li>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="wi-fi" id="id-wi-fi">
+							<label for="id-wi-fi">Wi-fi</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<fieldset>
+					<legend>Тип жилья:</legend>
+
+					<ul>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="hotel" id="id-hotel" checked>
+							<label for="id-hotel">Гостиница</label>
+						</li>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="motel" id="id-motel" checked>
+							<label for="id-motel">Мотель</label>
+						</li>
+						<li class="form-filter-item">
+							<input class="visually-hidden" type="checkbox" name="apartment" id="id-apartment" checked>
+							<label for="id-apartment">Апартаменты</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<fieldset>
+					<legend>Стоимость в сутки (р):</legend>
+
+					<div class="price-from">
+						<label>от
+							<input type="text" name="cost-from" value="0">
+						</label>
+					</div>
+
+					<div class="price-before">
+						<label>до
+							<input type="text" name="cost-before" value="3000">
+						</label>
+					</div>
+
+					<div class="range-controls">
+						<div class="scale">
+							<div class="bar"></div>
+						</div>
+						<div class="toggle min-toggle"></div>
+						<div class="toggle max-toggle"></div>
+					</div>
+				</fieldset>
+
+				<button class="btn form-filter-btn" type="submit">Показать</button>
+			</form>
+
+		</section>
 		<div class="result">
-
 			<p class="find">Найдено: 3</p>
 
 			<div class="sorting">
@@ -45,11 +107,9 @@
 					<a href="#" class="toggle-up arrow">По возрастанию</a>
 				</div>
 			</div>
-
 		</div>
 
 		<section class="hotels">
-
 			<h2 class="visually-hidden">Отели в Седоне</h2>
 
 			<ul class="hotels-list">
@@ -120,11 +180,8 @@
 					</p>
 				</li>
 			</ul>
-
 		</section>
-
 	</main>
-
 
 	<footer class="main-footer">
 		<p>#Visitsedona</p>
@@ -138,6 +195,5 @@
 			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="html academy" width="115" height="41"></a>
 		</p>
 	</footer>
-
 </body>
 </html>
