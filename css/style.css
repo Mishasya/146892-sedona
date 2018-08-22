@@ -18,6 +18,14 @@ body {
   list-style: none;
 }
 
+.btn {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 a {
   text-decoration: none;
 }
@@ -61,6 +69,150 @@ a {
   color: #333333;
 }
 
-.specific-description {
+.specific-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
 
+.specific-description {
+  color: #ffffff;
+}
+
+.specific-description h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.specific-sub-list h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.search-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.search p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.search-btn {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  background-color: #766357;
+}
+
+.search-btn:hover {
+  background-color: #604e43;
+}
+
+.search-btn:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.main-footer p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.main-footer b {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.form-search {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.form-search input[type="text"] {
+  font: inherit;
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form-search input[type="text"]:hover {
+  background-color: #ebebeb;
+}
+
+.form-search input[type="text"]:focus {
+  background-color: #ffffff;
+}
+
+.form-search input[type="text"]::-moz-placeholder {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form-search input[type="text"]::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form-search input[type="text"]:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form-search input[type="text"]::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form-search input[type="text"]::placeholder {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.form-search-btn {
+  font-size: 21px;
+  line-height: 26px;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.form-search-btn:hover {
+  background-color: #669ec0;
+}
+
+.form-search-btn:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+/* hotels */
+
+.form-filter {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #668eb6 url("../img/filter-bg.jpg") no-repeat top center;
 }
