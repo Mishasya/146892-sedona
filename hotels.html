@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона. Гостиницы</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -11,7 +14,7 @@
 			<a href="index.html" class="main-header-logo">
 				<img src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
 			</a>
-			<ul class="site-nav">
+			<ul class="site-nav list-style">
 				<li><a href="index.html">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
 				<li><a href="#">Карта штата</a></li>
@@ -24,13 +27,13 @@
 		<h1 class="visually-hidden">Выбор гостиницы в Седоне</h1>
 
 		<section>
-			<h2>Фильтр гостиниц</h2>
+			<h2 class="visually-hidden">Фильтр гостиниц</h2>
 
 			<form class="form-filter" action="#" method="get">
 				<fieldset>
 					<legend>Инфраструктура:</legend>
 
-					<ul>
+					<ul class="list-style">
 						<li class="form-filter-item">
 							<input class="visually-hidden" type="checkbox" name="pool" id="id-pool" checked>
 							<label for="id-pool">Бассейн</label>
@@ -49,7 +52,7 @@
 				<fieldset>
 					<legend>Тип жилья:</legend>
 
-					<ul>
+					<ul class="list-style">
 						<li class="form-filter-item">
 							<input class="visually-hidden" type="checkbox" name="hotel" id="id-hotel" checked>
 							<label for="id-hotel">Гостиница</label>
@@ -84,8 +87,8 @@
 						<div class="scale">
 							<div class="bar"></div>
 						</div>
-						<div class="toggle min-toggle"></div>
-						<div class="toggle max-toggle"></div>
+						<button type="button" class="toggle min-toggle"></button>
+						<button type="button" class="toggle max-toggle"></button>
 					</div>
 				</fieldset>
 
@@ -112,7 +115,7 @@
 		<section class="hotels">
 			<h2 class="visually-hidden">Отели в Седоне</h2>
 
-			<ul class="hotels-list">
+			<ul class="hotels-list list-style">
 				<li class="hotels-item">
 					<h3>
 						<a href="#">Amara Resort & Spa</a>
