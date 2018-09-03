@@ -37,16 +37,25 @@
 						<legend>Инфраструктура:</legend>
 						<ul class="list-style">
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="pool" id="id-pool" checked>
-								<label for="id-pool">Бассейн</label>
+								<label class="checkbox-filter">
+									<input class="visually-hidden" type="checkbox" name="pool" checked>
+									<span class="checkbox-indicator"></span>
+                  Бассейн
+								</label>
 							</li>
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="parking" id="id-parking">
-								<label for="id-parking">Парковка</label>
+								<label class="checkbox-filter">
+									<input class="visually-hidden" type="checkbox" name="parking">
+									<span class="checkbox-indicator"></span>
+									Парковка
+								</label>
 							</li>
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="wi-fi" id="id-wi-fi">
-								<label for="id-wi-fi">Wi-fi</label>
+								<label class="checkbox-filter">
+									<input class="visually-hidden" type="checkbox" name="wi-fi">
+									<span class="checkbox-indicator"></span>
+									Wi-fi
+								</label>
 							</li>
 						</ul>
 					</fieldset>
@@ -55,21 +64,30 @@
 						<legend>Тип жилья:</legend>
 						<ul class="list-style">
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="hotel" id="id-hotel" checked>
-								<label for="id-hotel">Гостиница</label>
+                <label class="checkbox-filter">
+								  <input class="visually-hidden" type="checkbox" name="hotel" checked>
+                  <span class="checkbox-indicator"></span>
+								  Гостиница
+                </label>
 							</li>
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="motel" id="id-motel" checked>
-								<label for="id-motel">Мотель</label>
+                <label class="checkbox-filter">
+								  <input class="visually-hidden" type="checkbox" name="motel" checked>
+                  <span class="checkbox-indicator"></span>
+								  Мотель
+                </label>
 							</li>
 							<li class="form-filter-item">
-								<input class="visually-hidden" type="checkbox" name="apartment" id="id-apartment" checked>
-								<label for="id-apartment">Апартаменты</label>
+                <label class="checkbox-filter">
+								  <input class="visually-hidden" type="checkbox" name="apartment" checked>
+                  <span class="checkbox-indicator"></span>
+								  Апартаменты
+                </label>
 							</li>
 						</ul>
 					</fieldset>
 
-					<fieldset>
+					<fieldset class="filter-range">
 						<legend>Стоимость в сутки (р):</legend>
 						<div class="price-from">
 							<label>от
@@ -108,8 +126,14 @@
 						</div>
 
 						<div class="sorting-toggle">
-							<a href="#" class="toggle-down arrow" aria-label="Сортировка по убыванию">По убыванию</a>
-							<a href="#" class="toggle-up arrow" aria-label="Сортировка по возрастанию">По возрастанию</a>
+							<a href="#" class="toggle-up arrow" aria-label="Сортировка по возрастанию">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 0L0 10h11z"/>
+                </svg>
+              </a>
+							<a href="#" class="toggle-down arrow active" aria-label="Сортировка по убыванию">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11"/>
+                </svg>
+              </a>
 						</div>
 					</div>
 				</div>
@@ -139,8 +163,11 @@
 								</p>
 							</div>
 							<p class="hotels-score">
-								<span>5 звёзд</span>
-								<span>Рейтинг: 8,5</span>
+								<span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+								<span class="rating">Рейтинг: 8,5</span>
 							</p>
 						</div>
 					</li>
@@ -166,8 +193,10 @@
 								</p>
 							</div>
 							<p class="hotels-score">
-								<span>3 звезды</span>
-								<span>Рейтинг: 8,9</span>
+								<span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+								<span class="rating">Рейтинг: 8,9</span>
 							</p>
 						</div>
 					</li>
@@ -193,8 +222,9 @@
 								</p>
 							</div>
 							<p class="hotels-score">
-								<span>2 звезды</span>
-								<span>Рейтинг: 9,2</span>
+								<span class="star"></span>
+                <span class="star"></span>
+								<span class="rating">Рейтинг: 9,2</span>
 							</p>
 						</div>
 					</li>
