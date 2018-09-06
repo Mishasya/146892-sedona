@@ -15,8 +15,8 @@
 		<header class="main-header">
 			<nav class="main-nav">
 				<a href="index.html" class="main-header-logo">
-				<img src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
-			</a>
+				  <img src="img/logo-sedona.svg" alt="Логотип сайта Седона" width="140" height="72">
+			  </a>
 				<ul class="site-nav list-style">
 					<li><a href="index.html">Информация</a></li>
 					<li><a href="#">Фото и видео</a></li>
@@ -32,7 +32,6 @@
 				<h2 class="visually-hidden">Фильтр гостиниц</h2>
 
 				<form class="form-filter" action="https://echo.htmlacademy.ru" method="get">
-
 					<fieldset>
 						<legend>Инфраструктура:</legend>
 						<ul class="list-style">
@@ -89,15 +88,13 @@
 
 					<fieldset class="filter-range">
 						<legend>Стоимость в сутки (р):</legend>
-						<div class="price-from">
-							<label>от
-								<input type="text" name="cost-from" value="0">
+						<div class="price-controls">
+							<label class="min-price">от
+								<input type="text" name="cost-min" value="0">
 							</label>
-						</div>
 
-						<div class="price-before">
-							<label>до
-								<input type="text" name="cost-before" value="3000">
+							<label class="max-price">до
+								<input type="text" name="cost-max" value="3000">
 							</label>
 						</div>
 
@@ -153,20 +150,16 @@
 								<h3 class="hotels-title">
 									<a href="#">Amara Resort & Spa</a>
 								</h3>
-								<p class="hotels-price">
+								<p class="hotels-description">
 									<span>Гостиница</span>
-									<span>От 4000 р.</span>
+                  <a href="#" class="btn hotels-btn info-btn">Подробнее</a>
 								</p>
 								<p class="hotels-reserve">
-									<a href="#" class="btn info-btn">Подробнее</a>
-									<a href="#" class="btn reserv-btn">Забронировать</a>
+                  <span>От 4000 р.</span>
+									<a href="#" class="btn hotels-btn reserv-btn">Забронировать</a>
 								</p>
 							</div>
-							<p class="hotels-score">
-								<span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
+							<p class="hotels-score star star-one">
 								<span class="rating">Рейтинг: 8,5</span>
 							</p>
 						</div>
@@ -183,19 +176,16 @@
 								<h3 class="hotels-title">
 									<a href="#">Desert Quail Inn</a>
 								</h3>
-								<p class="hotels-price">
+                <p class="hotels-description">
 									<span>Мотель</span>
-									<span>От 3000 р.</span>
+                  <a href="#" class="btn hotels-btn info-btn">Подробнее</a>
 								</p>
 								<p class="hotels-reserve">
-									<a href="#" class="btn info-btn">Подробнее</a>
-									<a href="#" class="btn reserv-btn">Забронировать</a>
+                  <span>От 3000 р.</span>
+									<a href="#" class="btn hotels-btn reserv-btn">Забронировать</a>
 								</p>
 							</div>
-							<p class="hotels-score">
-								<span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
+							<p class="hotels-score star star-two">
 								<span class="rating">Рейтинг: 8,9</span>
 							</p>
 						</div>
@@ -212,18 +202,16 @@
 								<h3 class="hotels-title">
 									<a href="#">Villas at Poco Diablo</a>
 								</h3>
-								<p class="hotels-price">
+                <p class="hotels-description">
 									<span>Апартаменты</span>
-									<span>От 2000 р.</span>
+                  <a href="#" class="btn hotels-btn info-btn">Подробнее</a>
 								</p>
 								<p class="hotels-reserve">
-									<a href="#" class="btn info-btn">Подробнее</a>
-									<a href="#" class="btn reserv-btn">Забронировать</a>
+                  <span>От 2000 р.</span>
+									<a href="#" class="btn hotels-btn reserv-btn">Забронировать</a>
 								</p>
 							</div>
-							<p class="hotels-score">
-								<span class="star"></span>
-                <span class="star"></span>
+							<p class="hotels-score star star-three">
 								<span class="rating">Рейтинг: 9,2</span>
 							</p>
 						</div>
