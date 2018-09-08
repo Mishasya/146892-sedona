@@ -24,8 +24,8 @@ img {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
-          box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 1, 1, 0.2);
+          box-shadow: 0 0 20px 0 rgba(0, 1, 1, 0.2);
 }
 
 .wrapper-hotels {
@@ -766,7 +766,7 @@ input[type="radio"].visually-hidden {
 /* hotels */
 
 .form-filter-section {
-  background: #668eb6 url("../img/filter-bg.jpg") no-repeat top center;
+  background: #668eb6 url("../img/filter-bg.jpg") no-repeat center -60px;
 }
 
 .form-filter {
