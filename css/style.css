@@ -381,9 +381,9 @@ input[type="radio"].visually-hidden {
   background-color: rgba(254, 254, 254, 0.9);
 }
 
-.hotels-footer {
+/* .hotels-footer {
   padding: 42px 0;
-}
+} */
 
 .main-footer p {
   width: 400px;
@@ -897,7 +897,7 @@ input[type="radio"].visually-hidden {
 
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .range-controls .scale {
@@ -937,7 +937,7 @@ input[type="radio"].visually-hidden {
 
 .form-filter-btn {
   display: block;
-  margin: 0 auto;
+  margin-left: 85px;
   padding: 6px 34px;
   font-size: 14px;
   line-height: 21px;
@@ -956,8 +956,7 @@ input[type="radio"].visually-hidden {
 }
 
 .container-hotels {
-  width: 1060px;
-  margin: 0 auto;
+
 }
 
 .result {
@@ -973,7 +972,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 31px;
-  margin-right: 49px;
+  margin-right: 47px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -988,7 +987,6 @@ input[type="radio"].visually-hidden {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 892px;
-  padding-top: 5px;
 }
 
 .sorting-type {
@@ -1078,6 +1076,8 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 1056px;
+  margin: 0 auto;
 }
 
 .hotels-item {
@@ -1092,7 +1092,7 @@ input[type="radio"].visually-hidden {
   content: "";
   display: block;
   margin: 0;
-  margin-bottom: 23px;
+  margin-bottom: 25px;
   height: 1px;
   width: 1200px;
   background-color: #e5e5e5;
@@ -1102,7 +1102,7 @@ input[type="radio"].visually-hidden {
   content: "";
   display: block;
   margin: 0;
-  margin-top: 23px;
+  margin-top: 25px;
   height: 1px;
   width: 1200px;
   background-color: #e5e5e5;
@@ -1151,7 +1151,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-
   margin: 0;
 }
 
@@ -1162,7 +1161,7 @@ input[type="radio"].visually-hidden {
 
 .hotels-description {
   max-width: 112px;
-  margin-right: 7px;
+  margin-right: 5px;
   overflow: hidden;
 }
 
@@ -1211,15 +1210,15 @@ input[type="radio"].visually-hidden {
 }
 
 .star-one::before {
-  width: 88px;
+  width: 89px;
 }
 
 .star-two::before {
-  width: 62px;
+  width: 65px;
 }
 
 .star-three::before {
-  width: 39px;
+  width: 42px;
 }
 
 .hotels-score .rating {
