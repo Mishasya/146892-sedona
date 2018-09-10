@@ -1181,8 +1181,26 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 
+.info-btn:hover {
+  background-color: #669ec0;
+}
+
+.info-btn:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .reserv-btn {
   background-color: #766357;
+}
+
+.reserv-btn:hover {
+  background-color: #604e43;
+}
+
+.reserv-btn:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .hotels-score {
